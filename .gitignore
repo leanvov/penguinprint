@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv*/
+
+# 指纹库与导出
+fingerprints.db
+fingerprints_export.csv
+*_export.csv
+
+# 程序产生的输出
+_penguinprint_out/
+_penguinprint_out*/
+
+# 打包产物
+build/
+dist/
+dist-folder/
+*.spec
+!penguinprint.spec
